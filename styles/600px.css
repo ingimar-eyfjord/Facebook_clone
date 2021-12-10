@@ -1,0 +1,19 @@
+@media screen and (min-width: 600px) {
+  .twoGrids {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+  }
+    .searchForm {
+    width: 60%;
+    padding: 1rem;
+  }
+  .usersOfSystem {
+    min-width: 45%;
+  }
+  .usersOfSystem div:nth-child(3):not(.email) {
+    font-size: 2rem;
+  }
+}

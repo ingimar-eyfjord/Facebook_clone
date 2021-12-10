@@ -1,0 +1,52 @@
+@media screen and (min-width: 900px) {
+  #openMessages {
+    width: 100%;
+  }
+  .messaging {
+    height: calc(100% - 60px);
+    overflow-y: hidden;
+    bottom: 0;
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    pointer-events: none !important;
+  }
+  #userList {
+    height: 95%;
+    width: 100%;
+  }
+  .twoGrids {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    height: 100%;
+    position: relative;
+  }
+  .chat-messages {
+    overflow-y: hidden;
+    width: 100%;
+  }
+  #usersOfSystem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .searchForm {
+    width: 60%;
+    padding: 1rem;
+  }
+  .usersOfSystem {
+    min-width: 45%;
+  }
+  .usersOfSystem div:nth-child(3):not(.email) {
+    font-size: 2rem;
+  }
+  .comment-heading{
+    display: flex;
+    flex-direction: row;
+  }
+}
