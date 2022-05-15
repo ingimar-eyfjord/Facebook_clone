@@ -25,7 +25,7 @@ function processMessage(payload) {
 }
 mongoose
   .connect(
-    "mongodb+srv://Ingimar:ecktHK2Jd98jolfl@cluster0.o7mt9.mongodb.net/ExamMessageApp?retryWrites=true&w=majority",
+    "",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
